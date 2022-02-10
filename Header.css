@@ -1,0 +1,70 @@
+*{
+  color: black
+}
+header{
+  position: fixed;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+header *{
+  color: white;
+}
+
+.logo{
+  height: 5rem;
+}
+
+.panier-logo{
+  height: 3rem;
+}
+.panier{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.search-button{
+  position: relative;
+  height: 1.2rem;
+  bottom: 6px;
+  background-color: #f5be44;
+  padding: 0.5rem;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.search{
+  display: flex;
+  width: 90%;
+}
+
+input{
+  position: relative;
+  bottom: 5px;
+  height: 2rem;
+  color: black;
+  width: 90%;
+  border: none;
+}
+
+.id a{
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.id{
+  text-align: center;
+  width: 20rem;
+margin-right: 1rem;  
+}
+
+.nbr-panier{
+  color: #f5be44;
+  font-weight: 700;
+
+}

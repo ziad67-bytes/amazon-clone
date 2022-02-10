@@ -1,0 +1,44 @@
+.element-panier{
+    background-color: red;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    height: 20rem;
+    margin-right: auto; margin-left: auto;
+}
+
+.image-panier{
+    height: 15rem;
+    min-width: 15rem;
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+
+.description-panier{
+    font-size: 10px;
+}
+.title-panier{
+    font-weight: 500;
+
+}
+
+.text-panier{
+    margin: 2rem;
+    width: 60%;
+}
+.panier-page{
+    display: flex;
+
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 2rem;
+    background-color: white;
+}

@@ -1,0 +1,39 @@
+.image{
+    height: 15rem;
+    width: 15rem;
+}
+
+.article{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25rem;
+    width: 15rem;
+    margin-right: auto; margin-left: auto;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 10px;
+    overflow: hidden;
+    height: 2rem;
+}
+
+.add{
+    background: rgb(232,199,110);
+    background: linear-gradient(180deg, rgba(232,199,110,1) 0%, rgba(222,173,64,1) 100%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.signIn, .create-account{
+    position: relative;
+    top: 10rem;
+    height: 30rem;
+    width: 20rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+}
+
+.main-auth{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-auth h2{
+    font-size: 15px;
+    align-self: flex-start;
+    position: relative;
+    bottom: 6px; 
+    left: 6px;
+}
+
+.main-auth input{
+    width: 17rem;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.main-auth button{
+    cursor: pointer;
+    width: 17rem;
+    height: 1.7rem;
+    margin-top: 0.5rem;
+    background: rgb(232,199,110);
+    background: linear-gradient(180deg, rgba(232,199,110,1) 0%, rgba(222,173,64,1) 100%);
+    border: none;
+}
+
+.logo-auth{
+    width:auto;
+    height: 5rem;
+}
